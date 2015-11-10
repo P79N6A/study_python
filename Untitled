@@ -1,0 +1,54 @@
+2015-11-09 15:09:59:923 OneTravel[14139:70b] [self class]=DCPersonalCenterRequst, JSON-{
+    errmsg = "";
+    errno = 0;
+    "user_icon_url" = "";
+    "user_name" = "\U5434\U7528";
+    "user_option" =     (
+                {
+            detail = "0 \U4e2a\U5f85\U5904\U7406\U4fe1\U606f";
+            digit = 0;
+            "icon_url" = "http://static.xiaojukeji.com/didialift/hybrid/images/icons/ongoing_order_icon.png";
+            "jump_url" = "";
+            section = 0;
+            text = "\U6211\U7684\U8ba2\U5355";
+            type = 1;
+        },
+                {
+            detail = "";
+            digit = "";
+            "icon_url" = "http://static.xiaojukeji.com/didialift/hybrid/images/icons/driver_auth_icon.png";
+            "jump_url" = "http://wap.didialift.com/pinche/publicreg/program/login?regfrom=500187&regsource=1";
+            section = 0;
+            text = "\U8f66\U4e3b\U8ba4\U8bc1";
+            type = 3;
+        },
+                {
+            detail = "";
+            digit = "";
+            "icon_url" = "http://static.xiaojukeji.com/didialift/hybrid/images/icons/setting_@3x.png";
+            "jump_url" = "";
+            section = 1;
+            text = "\U8bbe\U7f6e";
+            type = 5;
+        },
+                {
+            detail = "";
+            digit = "";
+            "icon_url" = "http://static.xiaojukeji.com/didialift/hybrid/images/icons/user_guide1@3x.png";
+            "jump_url" = "http://static.didialift.com/didialift/hybrid/pages/help/help-homePage.html";
+            section = 1;
+            text = "\U7528\U6237\U6307\U5357";
+            type = 3;
+        },
+                {
+            detail = "";
+            digit = "";
+            "icon_url" = "http://static.xiaojukeji.com/pinche/images/s-editor.jpg";
+            "jump_url" = "http://wap.didialift.com/pinche/usersuggest/index";
+            section = 1;
+            text = "\U7528\U6237\U53cd\U9988";
+            type = 3;
+        }
+    );
+    "user_sign" = "";
+},requestSeqID=19
