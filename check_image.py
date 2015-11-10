@@ -12,7 +12,7 @@ def remove_common(list_a,list_b):
     new_list = list_b
     for x in list_a:
         if x in list_b:
-            
+
             new_list.pop()
 
 # check image in bundle path
@@ -32,6 +32,9 @@ def check_image():
         image_dict = {}
         image_2x_name = x[:(len(x) - len(tail_2x))]
         image_3x_name = y[:(len(y) - len(tail_3x))]
+
+
+
 
         # match image
         if cmp(image_2x_name, image_3x_name) == 0:
