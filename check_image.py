@@ -22,11 +22,13 @@ def check_image_from_path(bundle_path):
     list_img_ext = ['bmp','jpeg','gif','psd','png','jpg']
     list_images, list_dir, list_other = [], [], [];
 
+    # 应该还可以优化
     for x in list_all:
         if cmp(x[-len(tail_2x):], tail_2x) == 0:
             for y in list_all:
                 if cmp(y[-len(tail_3x):], tail_3x) == 0 and \
-                   cmp(x[:(len(x) - len(tail_2x))], y[:(len(y) - len(tail_3x))]) == 0 :
+                   cmp(x[:(len(x) - len(tail_2x))],
+                       y[:(len(y) - len(tail_3x))]) == 0 :
                     list_images.append(x)
                     list_images.append(y)
 
