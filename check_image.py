@@ -56,7 +56,9 @@ def check_image_from_path(bundle_path):
 print "\n" + "=" * 20 + "检查完成" + "=" * 20
 
 start_time = time.time()
-check_image_from_path('/Users/Risy/Works/DIDI/iOS Project/ditravel/DICarpool/DICarpoolRes.bundle')
+input_path = raw_input("请输入检查目录")
+# input_path = '/Users/Risy/Works/DIDI/iOS Project/ditravel/DICarpool/DICarpoolRes.bundle'
+check_image_from_path(input_path)
 end_time = time.time() - start_time
 
 print "\n->", "程序运行耗时:%0.8f秒" % end_time
