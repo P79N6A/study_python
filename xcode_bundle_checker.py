@@ -52,16 +52,15 @@ def check_image_from_path(bundle_path):
 
     return
 
-#go
-print "\n" + "=" * 20 + "检查完成" + "=" * 20
+if __name__ == '__main__':
+    print "\n" + "=" * 20 + "检查完成" + "=" * 20
+    start_time = time.time()
+    input_path = raw_input("请输入检查目录:\n")
+    # input_path = '/Users/Risy/Works/DDI/iOS Project/ditravel/DICarpool/DICarpoolRes.bundle'
+    check_image_from_path(input_path)
+    end_time = time.time() - start_time
 
-start_time = time.time()
-input_path = raw_input("请输入检查目录:\n")
-# input_path = '/Users/Risy/Works/DDI/iOS Project/ditravel/DICarpool/DICarpoolRes.bundle'
-check_image_from_path(input_path)
-end_time = time.time() - start_time
+    print "\n->", "程序运行耗时:%0.8f秒" % end_time
+    print "=" * 20 + "have fun" + "=" * 20
 
-print "\n->", "程序运行耗时:%0.8f秒" % end_time
-print "=" * 20 + "have fun" + "=" * 20
-
-raw_input('\nPress Enter to exit')
+    raw_input('\nPress Enter to exit')
